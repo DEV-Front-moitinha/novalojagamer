@@ -34,3 +34,13 @@ main {
         text-shadow: 0 0 10px var(--color-primary), 0 0 20px var(--color-primary), 0 0 40px var(--color-primary), 0 0 80px var(--color-primary);
     }
 }
+
+.titulo{
+    background-image:linear-gradient(to right, #95ff00, purple, #95ff00);
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+    background-clip: text;
+}
+.titulo:hover{
+    animation: acender 0.5s forwards;
+}
