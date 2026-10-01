@@ -14,11 +14,11 @@ const App = () => {
       <div className='min-h-screen flex flex-col justify-between bg-black text-white' pt-4>
         <Header />
         <Routes>
-          <Route path='/' element={<Home />}></Route>
-          <Route path='/contato' element={<Contato />}></Route>
-          <Route path='/jogos' element={<Jogos />}></Route>
-          <Route path='/login' element={<Login />}></Route>
-          <Route path='*' element={<Error />}></Route>
+          <Route path='/' element={<Home />}/>
+          <Route path='/contato' element={<Contato />}/>
+          <Route path='/jogos' element={<Jogos />}/>
+          <Route path='/login' element={<Login />}/>
+          <Route path='*' element={<Error />}/>
         </Routes>
         <Footer />
       </div>
